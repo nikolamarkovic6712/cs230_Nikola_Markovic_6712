@@ -1,0 +1,5 @@
+Funkcija write_text_to_file() omogućava korisniku da unese tekst sa tastature i zatim ga upisuje u datoteku text.txt.
+Wrapper funkcija proširuje osnovnu funkcionalnost tako što pre upisa pretvara sav tekst u mala slova korišćenjem metode lower().
+Na taj način nije potrebno menjati originalnu funkciju, već se dodatna funkcionalnost dodaje preko dekoratorskog pristupa.
+Ovo predstavlja dobar primer upotrebe wrapper funkcija u Pythonu, 
+jer omogućava proširenje postojećeg koda bez izmene njegove osnovne logike.
