@@ -1,0 +1,7 @@
+Ovaj program koristi dekorator kao interceptor za logovanje rada funkcija.
+Dekorator logger_decorator presrece poziv funkcije i belezi informacije pre i nakon njenog izvrsavanja.
+Prilikom ulaska u funkciju ispisuje ime funkcije i prosleđene argumente,
+dok nakon izvršavanja prikazuje povratnu vrednost i izlazak iz funkcije.
+Funkcija wrapper() omogucava prihvatanje proizvoljnog broja argumenata koriscenjem *args i **kwargs,
+cime dekorator moze da radi sa bilo kojom funkcijom. Na primeru funkcije saberi() prikazano je kako dekorator automatski evidentira
+tok izvrsavanja funkcije bez izmene njenog osnovnog koda.
